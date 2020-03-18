@@ -10,7 +10,10 @@ First pull this repo and save it to your computer.
 Next run a Docker container with v1.6 (possibly later as well!) of ENVIRO.
 docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
 This should setup the ports and provide easy access to ENVIRO
+Next type the following command into the terminal: "make"
+This will compile the project.
 Next type the following command into the terminal: "esm start"
+This will start the browser connection to the server.
 Then type the following command into the terminal: "enviro"
 Next navigate using a webbrowser to localhost, you should see a screen with the game connected.
 Finally get another friend to join...maybe...I'm not actually certain if it only works as two instances in the same browser
