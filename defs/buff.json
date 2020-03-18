@@ -1,0 +1,19 @@
+{
+    "name": "buff",
+    "type": "dynamic",
+    "description": "This agent is intended to disappear on player collision and for the player to get a speed increase",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 0.01,    
+    "controller": "lib/buff.so"
+}

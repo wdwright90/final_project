@@ -1,0 +1,19 @@
+{
+    "name": "debuff",
+    "type": "dynamic",
+    "description": "This is intended to disappear on player collision and for the player to get a speed decrease",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 0.01,    
+    "controller": "lib/debuff.so"
+}

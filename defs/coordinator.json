@@ -1,0 +1,6 @@
+{
+    "name": "Coordinator",
+    "type": "invisible",
+    "description": "This initializes the buffs/debuffs on the track and gives clients different ids for multiplay",    
+    "controller": "lib/coordinator.so"
+}
